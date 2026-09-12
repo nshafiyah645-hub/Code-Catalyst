@@ -17,7 +17,7 @@ This becomes more challenging for group travellers because members may have diff
 
 The main stakeholders are **travellers, particularly those travelling in groups**, who need a simpler way to organise and coordinate their trips.
 
-Existing applications such as Google Maps and other travel planning platforms provide useful information for locations and transportation. However, travellers may still need separate applications for **group communication, currency information and other travel-related needs**.
+Existing applications such as Google Maps provide useful location, navigation and transportation information. However, they are primarily focused on navigation and do not provide an integrated experience for **group itinerary planning, AI travel assistance, group communication and currency-related travel utilities**. As a result, travellers may still need to switch between multiple applications when organising and managing a group trip.
 
 ## Our Solution
 
@@ -106,11 +106,17 @@ The prototype focuses on the user interface and interaction flow of **TripMate**
 
 ### 1. Travel Planning
 
-Users can provide their travel information and organise their trip through the TripMate.
+<img width="182" height="352" alt="Screenshot 2026-09-13 013425" src="https://github.com/user-attachments/assets/cc495ec1-ce3e-4d2b-a106-5a2235ffd89c" />
+<img width="178" height="350" alt="Screenshot 2026-09-13 013502" src="https://github.com/user-attachments/assets/93454376-6c9f-40bc-ae39-dc2b96227e8d" />
+<img width="175" height="347" alt="Screenshot 2026-09-13 013546" src="https://github.com/user-attachments/assets/7a2b89c2-24cf-4190-bd07-c779fe9119bb" />
+
+Users can enter their travel information and begin organising their trip with TripMate.
 
 The planning experience helps users organise their activities and travel plans based on their trip requirements.
 
 ### 2. Itinerary
+
+<img width="212" height="409" alt="Screenshot 2026-09-13 013026" src="https://github.com/user-attachments/assets/4aebe58b-f608-425f-ad50-3c4053a8c9c6" />
 
 Users can view their planned activities and destinations in an organised itinerary.
 
@@ -118,17 +124,23 @@ The itinerary provides a clear overview of the user's travel plans and allows us
 
 ### 3. Group Communication — Walkie-Talkie
 
+<img width="215" height="409" alt="Screenshot 2026-09-13 013134" src="https://github.com/user-attachments/assets/e6425843-002b-41aa-bcf0-e2d20e0f433c" />
+
 The Walkie-Talkie feature allows members of a travel group to communicate using push-to-talk voice communication.
 
 Users can hold the microphone button to quickly send a voice message to their group while travelling.
 
 ### 4. Currency Exchange
 
+<img width="223" height="412" alt="Screenshot 2026-09-13 013218" src="https://github.com/user-attachments/assets/ee9701e5-7005-487a-a48a-2219dde8c79c" />
+
 The Currency Exchange feature allows users to check currency conversion and exchange rates while travelling.
 
 Users can enter an amount and view the corresponding value in another currency.
 
 ### 5. Exchange Location Recommendations
+
+<img width="183" height="356" alt="Screenshot 2026-09-13 014540" src="https://github.com/user-attachments/assets/22f079b2-cfcc-468f-9a18-b6d2b6b0b357" />
 
 In addition to checking currency rates, users can discover nearby currency exchange locations.
 
@@ -140,17 +152,16 @@ The prototype provides information such as location, distance, rating and exchan
 
 TripMate goes beyond basic itinerary planning by using **AI to actively assist group travellers throughout their trip**, rather than only generating an itinerary at the beginning.
 
-## AI-Powered Adaptive Planning
+## AI-Assisted Adaptive Planning
 
-The AI can detect travel disruptions and understand their impact on the itinerary. For example, if a train is delayed by 45 minutes and a planned destination closes at 5:00 PM, the AI can suggest alternative options in the group chat and update the itinerary once the group agrees on a new plan.
+The AI can detect travel disruptions and understand their impact on the itinerary. For example, if a train is delayed by 45 minutes and a planned destination closes at 5:00 PM, the AI can suggest alternative options in the group chat and update the itinerary once the group agrees on a new plan. 
 
 ## AI-Assisted Expense Management
 
-The AI also works within the group chat to recognise travel-related expenses. For example, when a member mentions paying ¥8,000 for a taxi, the AI can identify the expense and suggest splitting the cost equally among group members, helping the group keep track of their shared budget.
-
+The AI also works within the group chat to recognise travel-related expenses. For example, when a member mentions paying ¥8,000 for a taxi, the AI can identify the expense and suggest splitting the cost equally among group members, helping the group keep track of their shared budget. 
 ## AI Travel Assistance
 
-The built-in AI can also answer questions related to travel preparation, recommendations and other trip-related information directly within the group chat.
+Travel-related questions and preparation assistance are available directly inside the group's conversation instead of requiring users to switch to another AI or travel application.
 
 ## Group Travel Features
 
@@ -194,7 +205,7 @@ During the 3-week building phase, the team will focus on implementing the main T
 
 * Travel planning flow
 * Itinerary management
-* AI-powered itinerary assistance and adjustments
+* AI-assisted itinerary planning and adjustments
 * AI Expense Management
 * Transport information
 * AI assistance through Group Chat
@@ -202,13 +213,9 @@ During the 3-week building phase, the team will focus on implementing the main T
 * Exchange location recommendations
 * Group communication / Walkie-Talkie
 
-### Additional / Optional Scope
-
-* Shared Trip Gallery
-
 The team will prioritise a focused and feasible implementation rather than attempting to build every possible travel-related function.
 
-Features that require more complex infrastructure, such as real-time voice communication and advanced shared photo management, may be implemented in a simplified version or deprioritised depending on development time and technical constraints.
+Features that require more complex infrastructure, such as real-time voice communication, may be implemented in a simplified version or deprioritised depending on development time and technical constraints.
 
 The prototype demonstrates the intended user experience and interface, while the building phase will focus on turning the selected core features into a functional application.
 
