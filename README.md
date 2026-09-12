@@ -1,4 +1,3 @@
-# Code-Catalyst
 # TripMate Assistant by Code-Catalyst
 
 **Team:** Nurul Shafiyah binti Zulkarnain, Raja Adam Haziq bin Raja Muhd Zulkhairi, Danish Shazwan bin Muhammad Khusyairi  
@@ -34,6 +33,7 @@ Instead of switching between multiple applications, travellers can access these 
 * Itinerary Management
 * Transport Information
 * AI Travel Assistance
+* AI Expense Management
 * Group Communication through Walkie-Talkie
 * Currency Exchange
 * Exchange Location Recommendations
@@ -61,7 +61,8 @@ Instead of switching between multiple applications, travellers can access these 
 ## 2.2 Ideation Boards
 
 <img width="750" height="1000" alt="WhatsApp Image 2026-09-13 at 12 25 52 AM" src="https://github.com/user-attachments/assets/7bafca5f-8d37-4424-951b-6ba85cd9e94b" />
-initial brainstorming
+
+*Figure 1: Initial Brainstorming Session*
 
 ```mermaid
 graph TD
@@ -81,15 +82,11 @@ graph TD
     J -- No --> M[Enjoy Trip]
 ```
 
----
-
 This ideation board shows the team's brainstorming process and the different challenges and ideas considered for improving the travel experience.
 
 The team explored areas such as trip planning, group communication, transportation and currency exchange before refining the ideas into the selected Travel Planner features.
 
 ---
-
-## 2.3 Mentor Consultation
 
 ## 2.3 Mentor Consultation
 
@@ -185,7 +182,7 @@ The project relies on several external APIs and services, particularly for **AI,
 
 The **Walkie-Talkie** feature may require real-time communication capabilities, which could introduce additional implementation complexity.
 
-Due to the limited 3-week development period, the team will prioritise the core features and implement more complex features based on their technical feasibility and available development time.m v
+Due to the limited 3-week development period, the team will prioritise the core features and implement more complex features based on their technical feasibility and available development time.
 
 ---
 
@@ -198,6 +195,7 @@ During the 3-week building phase, the team will focus on implementing the main T
 * Travel planning flow
 * Itinerary management
 * AI-powered itinerary assistance and adjustments
+* AI Expense Management
 * Transport information
 * AI assistance through Group Chat
 * Currency exchange
