@@ -144,13 +144,13 @@ Users can plan their trip, communicate with their group and manage currency info
 
 | Component | Technology | Purpose |
 |---|---|---|
-| Frontend | [INSERT TECHNOLOGY] | Build the Travel Planner user interface |
-| Backend | [INSERT TECHNOLOGY] | Handle application logic and data |
-| Database | [INSERT TECHNOLOGY] | Store user and trip information |
-| AI Service | [INSERT AI API / SERVICE] | Support travel planning and itinerary generation |
-| Maps / Location API | [INSERT API / SERVICE] | Provide location and transportation information |
-| Currency API | [INSERT API / SERVICE] | Provide currency exchange information |
-| Hosting | [INSERT HOSTING PLATFORM] | Deploy the application |
+| Frontend | Flutter | Build the Travel Planner user interface |
+| Backend | Firebase | Handle application logic and data |
+| Database | Cloud Firestore | Store user and trip information |
+| AI Service | Google Gemini API | Support travel planning and itinerary generation |
+| Maps / Location API | Google Maps Platform | Provide location and transportation information |
+| Currency API | ExchangeRate-API | Provide currency exchange information |
+| Hosting | Firebase Hosting | Deploy the application |
 
 ## Technical Considerations
 
