@@ -60,6 +60,9 @@ Instead of switching between multiple applications, travellers can access these 
 
 ## 2.2 Ideation Boards
 
+<img width="750" height="1000" alt="WhatsApp Image 2026-09-13 at 12 25 52 AM" src="https://github.com/user-attachments/assets/7bafca5f-8d37-4424-951b-6ba85cd9e94b" />
+initial brainstorming
+
 ```mermaid
 graph TD
     A([Start]) --> B[Create a Trip<br/>Destination, Dates, Budget, Purpose, Interests]
