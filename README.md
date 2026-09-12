@@ -60,7 +60,25 @@ Instead of switching between multiple applications, travellers can access these 
 
 ## 2.2 Ideation Boards
 
-![Ideation Board](images/ideation-board.png)
+```mermaid
+graph TD
+    A([Start]) --> B[Create a Trip<br/>Destination, Dates, Budget, Purpose, Interests]
+    B --> C[Set Constraints & Preferences]
+    C --> D[Explore Options<br/>Flight, Train, Bus, Hotel, Activities]
+    D --> E[User Selects Preferences]
+    E --> F[Smart Itinerary Generator<br/>Checks: Budget, Route, Time, Opening Hours]
+    F --> G[Confirmed Trip Plan]
+    
+    G --> H[Before Trip: Travel Guide & Requirements]
+    G --> I[During Trip: Real-time Monitoring]
+    
+    I --> J{Disruption Detected?<br/>Delay, Weather, Closure}
+    J -- Yes --> K[Adaptive Re-Plan Suggestion]
+    K --> L[Updated Itinerary]
+    J -- No --> M[Enjoy Trip]
+```
+
+---
 
 This ideation board shows the team's brainstorming process and the different challenges and ideas considered for improving the travel experience.
 
@@ -74,7 +92,7 @@ The team explored areas such as trip planning, group communication, transportati
 
 | Date         | Mentor      | Feedback Received                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    | What Was Changed                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
 | ------------ | ----------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| 10 Sept 2026 | Faris Imran | • Reduce the number of features and screens to keep the prototype focused and ensure all key features can be demonstrated within the presentation time.<br>• Simplify the user flow and make the overall concept easier to understand.<br>• Use AI as a travel guide to assist users with travel preparation and related questions.<br>• Focus on solving the main problems identified, such as adjusting travel plans and handling different user preferences.<br>• Include a user flow diagram to clearly show how users interact with the system. | • **AI Travel Guide:** The Travel Guide page was integrated into the **Group Chat**, allowing users to interact with the built-in AI for travel preparation, recommendations, and other travel-related questions.<br>• **Manual Itinerary Planning:** An **“Add Itinerary”** button was added to the **Plan** page, allowing users to manually set the date, time, and activity for their itinerary.<br>• **Simplified Interface:** Related functions were consolidated into fewer screens to reduce unnecessary navigation while keeping the main purpose of the application. |
+| 10 Sept 2026 | Faris Imran | • Reduce the number of features and screens to keep the prototype focused and ensure all key features can be demonstrated within the presentation time.<br>• Use AI as a travel guide to assist users with travel preparation and related questions.<br>• Focus on solving the main problems identified, such as adjusting travel plans and handling different user preferences.<br>• Include a user flow diagram to clearly show how users interact with the system. | • **AI Travel Guide:** The Travel Guide page was integrated into the **Group Chat**, allowing users to interact with the built-in AI for travel preparation, recommendations and other travel-related questions.<br>• **Manual Itinerary Planning:** An **“Add Itinerary”** button was added to the **Plan** page, allowing users to manually set the date, time and activity for their itinerary.<br>• **Simplified Interface:** Related functions were consolidated into fewer screens to reduce unnecessary navigation while keeping the main purpose of the application. |
 
 ---
 
@@ -82,13 +100,13 @@ The team explored areas such as trip planning, group communication, transportati
 
 **UI Prototype:** https://www.figma.com/make/BW6GEJv6Iljx8Ylykz6AnH/Travel-Planner?t=Iwu3L3pwSdeyaUaq-1
 
-The prototype focuses on the user interface and interaction flow of **TripMate**. The key screens demonstrate how users can plan their trip, manage their itinerary, access travel-related information, and interact with their group during a trip.
+The prototype focuses on the user interface and interaction flow of **TripMate**. The key screens demonstrate how users can plan their trip, manage their itinerary, access travel-related information and interact with their group during a trip.
 
 ## Key Screens
 
 ### 1. Travel Planning
 
-Users can provide their travel information and organise their trip through the Travel Planner.
+Users can provide their travel information and organise their trip through the TripMate.
 
 The planning experience helps users organise their activities and travel plans based on their trip requirements.
 
@@ -114,13 +132,13 @@ Users can enter an amount and view the corresponding value in another currency.
 
 In addition to checking currency rates, users can discover nearby currency exchange locations.
 
-The prototype provides information such as location, distance, rating, and exchange rate information to help users compare available options.
+The prototype provides information such as location, distance, rating and exchange rate information to help users compare available options.
 
 ---
 
 # 4. What Makes It Different
 
-Travel Planner goes beyond basic itinerary planning by using **AI to actively assist group travellers throughout their trip**, rather than only generating an itinerary at the beginning.
+TripMate goes beyond basic itinerary planning by using **AI to actively assist group travellers throughout their trip**, rather than only generating an itinerary at the beginning.
 
 ## AI-Powered Adaptive Planning
 
@@ -136,7 +154,7 @@ The built-in AI can also answer questions related to travel preparation, recomme
 
 ## Group Travel Features
 
-Travel Planner also provides supporting features designed for group travel, including **Walkie-Talkie communication, currency exchange information and exchange location recommendations**.
+TripMate also provides supporting features designed for group travel, including **Walkie-Talkie communication, currency exchange information and exchange location recommendations**.
 
 ## Integrated Travel Experience
 
@@ -148,27 +166,23 @@ The key difference is that TripMate combines **adaptive AI assistance, itinerary
 
 ## Tech Stack
 
-| Component | Technology | Purpose |
-|---|---|---|
-| Frontend | Flutter | Build the Travel Planner user interface |
-| Backend | Firebase | Handle application logic and data |
-| Database | Cloud Firestore | Store user and trip information |
-| AI Service | Google Gemini API | Support travel planning and itinerary generation |
-| Maps / Location API | Google Maps Platform | Provide location and transportation information |
-| Currency API | ExchangeRate-API | Provide currency exchange information |
-| Hosting | Firebase Hosting | Deploy the application |
+| Component           | Technology           | Why We Chose It                                                                                     | Expected Constraints                                                                                  |
+| ------------------- | -------------------- | --------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- |
+| Frontend            | Flutter              | Allows us to build a cross-platform mobile application with a single codebase.                      | The team may need to manage responsive layouts and different device screen sizes.                     |
+| Backend             | Firebase             | Provides backend services that can be integrated quickly during the hackathon development period.   | Reliance on Firebase services may introduce limitations based on available features and usage limits. |
+| Database            | Cloud Firestore      | Provides a cloud-based database suitable for storing user and trip information.                     | Requires proper database structure and security rules as the application grows.                       |
+| AI Service          | Google Gemini API    | Provides AI capabilities for travel assistance, itinerary planning and responding to user queries. | API usage limits, response reliability and internet connectivity may affect the AI features.         |
+| Maps / Location API | Google Maps Platform | Provides location and transportation-related information that supports travel planning.             | API usage may be subject to quotas, availability and configuration requirements.                     |
+| Currency API        | ExchangeRate-API     | Provides exchange rate information for the currency exchange feature.                               | Exchange rate data depends on the availability and limitations of the external API.                   |
+| Hosting             | Firebase Hosting     | Provides a convenient platform for deploying the application and related web services.              | Deployment depends on Firebase configuration and service availability.                                |
 
 ## Technical Considerations
 
-The project involves several components that may require external APIs or services, including AI, maps/location information and currency exchange data.
+The project relies on several external APIs and services, particularly for **AI, maps/location information and currency exchange**. These services may have API limits, require internet connectivity or depend on third-party availability.
 
-The Walkie-Talkie feature may also require real-time communication capabilities during the implementation phase.
+The **Walkie-Talkie** feature may require real-time communication capabilities, which could introduce additional implementation complexity.
 
-Due to the limited development period, the team will prioritise the core features and implement more complex features according to their technical feasibility and available development time.
-
-## System Architecture Diagram
-
-[Insert System Architecture Diagram if required]
+Due to the limited 3-week development period, the team will prioritise the core features and implement more complex features based on their technical feasibility and available development time.m v
 
 ---
 
@@ -207,4 +221,4 @@ The application helps groups organise their itineraries, respond to changes duri
 
 By bringing these functions together, TripMate provides travellers with a more connected, flexible and organised travel experience.
 
-**We don't just plan your trip — we make travelling together easier.**
+**We don't just plan your trip but we make travelling together easier.**
