@@ -229,4 +229,4 @@ The application helps groups organise their itineraries, respond to changes duri
 
 By bringing these functions together, TripMate provides travellers with a more connected, flexible and organised travel experience.
 
-**We don't just plan your trip but we make travelling together easier.**
+**We don't just plan your trip, we make travelling together easier.**
