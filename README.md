@@ -128,7 +128,9 @@ The itinerary provides a clear overview of the user's travel plans and allows us
 
 The Walkie-Talkie feature allows members of a travel group to communicate using push-to-talk voice communication.
 
-Users can hold the microphone button to quickly send a voice message to their group while travelling.
+Users can hold the microphone button to quickly send a live voice message to their group while travelling through a continuous radio-like communication.
+
+The app then store and shows transcripts of the user's voice for reviewing.
 
 ### 4. Currency Exchange
 
