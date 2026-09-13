@@ -115,9 +115,9 @@ The prototype focuses on the user interface and interaction flow of **TripMate**
 <img width="178" height="350" alt="Screenshot 2026-09-13 013502" src="https://github.com/user-attachments/assets/93454376-6c9f-40bc-ae39-dc2b96227e8d" />
 <img width="175" height="347" alt="Screenshot 2026-09-13 013546" src="https://github.com/user-attachments/assets/7a2b89c2-24cf-4190-bd07-c779fe9119bb" />
 
-Users can enter their travel information and begin organising their trip with TripMate.
+Users can view their planned activities and destinations in an organised itinerary.
 
-The planning experience helps users organise their activities and travel plans based on their trip requirements.
+The itinerary provides a clear overview of the user's travel plans and allows users to manage their scheduled activities. Users can also adjust their itinerary if needed.
 
 ### 2. Itinerary
 
@@ -125,7 +125,7 @@ The planning experience helps users organise their activities and travel plans b
 
 Users can view their planned activities and destinations in an organised itinerary.
 
-The itinerary provides a clear overview of the user's travel plans and allows users to manage their scheduled activities.
+The itinerary provides a clear overview of the user's travel plans and allows users to manage their scheduled activities. Users can also adjust their itinerary if they want.
 
 ### 3. Group Communication — Walkie-Talkie
 
