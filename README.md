@@ -2,8 +2,8 @@
 
 **Team:** Nurul Shafiyah binti Zulkarnain, Raja Adam Haziq bin Raja Muhd Zulkhairi, Danish Shazwan bin Muhammad Khusyairi  
 **Problem Statement:** Travel Planner  
-**Video Presentation:** [Unlisted YouTube Link]  
-**Presentation Slides:** [Public Link]
+**Video Presentation:** https://youtu.be/w9OVuSfR30Q 
+**Presentation Slides:** https://canva.link/ude3nfb3x6c9w3v
 
 ---
 
