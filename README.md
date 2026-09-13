@@ -21,6 +21,8 @@ Existing applications such as Google Maps provide useful location, navigation an
 
 ## Our Solution
 
+<img width="300" height="300" alt="WhatsApp Image 2026-09-13 at 6 49 29 PM" src="https://github.com/user-attachments/assets/b83a4a63-52d5-4606-8397-155e71beee00" />
+
 **TripMate** is a travel companion designed to simplify group travel by bringing **trip planning, itinerary management and supporting travel utilities** into one platform.
 
 The application helps users organise their trip based on their **schedule, budget and preferences**, while also providing supporting features for group travel, such as **AI assistance, walkie-talkie communication and currency exchange information**.
@@ -81,6 +83,9 @@ graph TD
     K --> L[Updated Itinerary]
     J -- No --> M[Enjoy Trip]
 ```
+<img width="734" height="1280" alt="WhatsApp Image 2026-09-13 at 7 00 00 PM" src="https://github.com/user-attachments/assets/ffcf3cb7-ff4e-4672-b481-9a8bdaeadb72" />
+
+<img width="740" height="1280" alt="WhatsApp Image 2026-09-13 at 7 00 01 PM" src="https://github.com/user-attachments/assets/de039558-ae75-482a-81e3-d75d056c17c4" />
 
 This ideation board shows the team's brainstorming process and the different challenges and ideas considered for improving the travel experience.
 
